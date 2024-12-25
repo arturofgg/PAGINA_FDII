@@ -1,0 +1,137 @@
+/* CSS Global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+}
+
+main section {
+    margin-bottom: 2rem;
+}
+
+#bienvenida {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#bienvenida h1 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: -25px;
+}
+
+#bienvenida h3 {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#bienvenida p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #555;
+}
+
+.imagen-bienvenida {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contenido-destacado h2 {
+    font-size: 2rem;
+    color: #222;
+    padding-left: 20px;
+}
+
+#contenido-destacado ul {
+    list-style-type: disc;
+    padding-left: 50px;
+}
+
+#contenido-destacado ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+/*RESPONSIVE*/
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #bienvenida h1 {
+        font-size: 2rem;
+    }
+
+    #bienvenida p, #contenido-destacado ul li {
+        font-size: 1rem;
+    }
+
+    .imagen-bienvenida {
+        width: 90%;
+    }
+}
