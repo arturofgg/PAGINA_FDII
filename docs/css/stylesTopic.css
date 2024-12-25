@@ -14,10 +14,6 @@ html, body {
     flex-direction: column;
 }
 
-main {
-    flex: 1;
-}
-
 header {
     background: #333;
     color: #fff;
@@ -44,6 +40,14 @@ header nav ul li a {
 
 header nav ul li a:hover {
     text-decoration: underline;
+}
+
+main {
+    flex: 1;
+}
+
+main section {
+    margin-bottom: 2rem;
 }
 
 #topic {
