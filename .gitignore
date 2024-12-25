@@ -1,0 +1,30 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración personal
+*.env
+.vscode/
+.idea/
+
+# Archivos de registro
+*.log
+
+# Archivos y carpetas de desarrollo local
+node_modules/
+dist/
+build/
+
+# Archivos generados por Git
+*.lock
+*.swp
+*.swo
+
+# Archivos relacionados con compiladores (si usas alguna herramienta como Sass o similares)
+*.sass-cache/
+*.cache/
+
+# Otros
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
