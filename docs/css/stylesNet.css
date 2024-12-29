@@ -78,25 +78,39 @@ main section {
     margin-bottom: 20px;
 }
 
-#net ul {
-    list-style: none;
-    padding: 0;
-}
-
-#net ul li {
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
     font-size: 1.2rem;
-    margin: 10px 0;
+    text-align: left;
 }
 
-#net ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    transition: color 0.3s ease;
+thead th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
 }
 
-#net ul li a:hover {
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody td {
+    padding: 10px;
+}
+
+tbody td a {
     color: #007BFF;
+    text-decoration: none;
+}
+
+tbody td a:hover {
+    text-decoration: underline;
 }
 
 footer {
