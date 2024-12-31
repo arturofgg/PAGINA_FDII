@@ -113,21 +113,6 @@ tbody td a:hover {
     text-decoration: underline;
 }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-    font-size: 1rem;
-}
-
 /*RESPONSIVE*/
 @media (max-width: 768px) {
     #net h1 {
